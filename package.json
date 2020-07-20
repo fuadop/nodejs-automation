@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_bots",
+  "version": "1.0.0",
+  "description": "youtube bot to add playlist to spotify favorites",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fuad Olatunji",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.25",
+    "spotify-web-api-node": "^4.0.0"
+  }
+}
