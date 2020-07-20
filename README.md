@@ -10,5 +10,6 @@ a nodejs server that fetches data of items in my youtube playlist and then searc
 # The Script
   it checks my youtube playlist for videos and searches the videos title through spotify api then grabs the uri .
   it then adds the uri to my spotify playlist.
+  i used local mongodb database to store the video titles from youtube.. before querying it on spotify api for cases of network failure.
   
 I saw something similar, but the person used python and i have never used any python package other than pandas and random.. soi decided to do it in the framework i love most(node js).
